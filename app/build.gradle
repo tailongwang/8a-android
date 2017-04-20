@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "a8a.wwl.com.a8a_android"
-        minSdkVersion 25
+        minSdkVersion 22
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -26,4 +26,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.1.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.bigkoo:svprogresshud:1.0.6'
 }

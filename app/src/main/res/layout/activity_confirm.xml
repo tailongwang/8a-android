@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="a8a.wwl.com.a8a_android.ConfirmActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We just texted you a confirmation code. \n Please enter it below"/>
+
+    <EditText
+        android:id="@+id/txt_code"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:text="Next >"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:text="I did not receive it."/>
+
+</LinearLayout>
